@@ -1,9 +1,9 @@
 #include "main.h"
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
- * main - That program prints the first 50 Fibonacci numbers,
- * starting with 1 and 2.
+ * main - That program prints the first 50 Fibonacci numbers
+ * starting with 1 and 2
  * Return: always 0 (Success)
  */
 
@@ -20,7 +20,7 @@ int main(void)
 		printf("%lu", a);
 
 		if (i < 49)
-			printf(", ");
+		printf(", ");
 
 		c = a + b;
 		a = b;
