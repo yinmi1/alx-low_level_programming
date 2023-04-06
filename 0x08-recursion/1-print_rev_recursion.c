@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _strlen_recursion - length of string
+ * _print_rev_recursion - prints a string in reverse
  * @s:string
- * Return:int
+ *
+ * Return: no return
  */
 void _print_rev_recursion(char *s)
 {
