@@ -4,15 +4,11 @@
  * @s:string
  * Return:int
  */
-int _strlen_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
-	int i = 0;
-
-	if (*s)
+	if (*s == '\0')
 	{
-		i++;
-		i += _strlen_recursion(s + 1);
-
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
-	return (i);
 }
